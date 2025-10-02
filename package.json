@@ -1,0 +1,25 @@
+{
+  "name": "viperfac",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "tailwindcss -i ./static/css/input.css -o ./static/css/output.css --watch",
+    "build-css-prod": "tailwindcss -i ./static/css/input.css -o ./static/css/output.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfreakp/viperfac.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfreakp/viperfac/issues"
+  },
+  "homepage": "https://github.com/jfreakp/viperfac#readme",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^4.1.14"
+  }
+}
